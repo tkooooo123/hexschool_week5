@@ -1,0 +1,110 @@
+.admin {
+    padding: 32px;
+    margin-left: 296px;
+    width: 100%;
+
+    .modal-header {
+        padding: 32px;
+    }
+
+    .modal-body {
+        padding: 0 32px 16px;
+    }
+
+    .modal-footer {
+        padding: 16px 32px;
+    }
+
+    .btn {
+        padding: 8px 32px;
+        border: 1px solid $gray-400;
+        border-radius: 2px;
+    }
+    .disabled {
+        color: $gray-400;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .form-control {
+        height: 51px;
+        border: 1px solid $gray-900;
+        border-radius: 2px;
+    }
+
+    .form-select {
+        height: 51px;
+        border: 1px solid $gray-900;
+        border-radius: 2px;
+    }
+
+    .form-check-input {
+        border: 1px solid $gray-900;
+        border-radius: 2px;
+    }
+
+    th .material-icons {
+        font-size: 16px;
+    }
+
+    tr {
+        height: 56px;
+    }
+
+    .pagination {
+        margin-top: 64px;
+        border: 1px solid $success;
+        li {
+            height: 32px;
+            width: 32px;
+            border-right: 1px solid $success;
+            cursor: pointer;
+        }
+        li:last-child {
+            border-right: none;
+        }
+        a {
+            color: $success;
+        }
+        
+        .prev:hover, .next:hover {
+            background-color: $success;
+            a {
+                color: #fff;
+            }
+        }
+    }
+    .date {
+        font-size: 14px;
+    }
+    .view-expand {
+        .modal-img {
+            height: 141px;
+            width: 141px;
+            object-fit: cover;
+        }
+        .name {
+            font-size: 24px;
+        }
+        .email, .verify {
+            font-size: 14px;
+        }
+        .email {
+            color: $gray-600;
+            margin-bottom: 20px;
+        }
+        .collapse-btn {
+            display: none;
+        }
+    }
+}
