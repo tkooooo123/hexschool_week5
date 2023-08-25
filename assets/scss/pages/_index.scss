@@ -1,5 +1,6 @@
 .assignment {
     padding: 32px;
+    margin-left: 296px;
     width: 100%;
 
 }
@@ -66,6 +67,7 @@ header {
 
 .main-right {
     width: 67.5%;
+    position: relative;
 
     .comments-quantity {
         font-size: 12px;
@@ -135,8 +137,23 @@ header {
     .prev-btn, .next-btn {
         color: black;
     }
-    .mark-btn, .reply-btn {
+    .mark-btn, .open-btn, .reply-btn, .cancel-btn {
         padding: 8px 32px;
         border-radius: 2px;
+    }
+
+    .offcanvas {
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 290px;
+        border: 1px solid $gray-400;
+    }
+    .offcanvas-header {
+        background-color: $gray-100;
+    }
+    textarea {
+        resize: none;
     }
 }
