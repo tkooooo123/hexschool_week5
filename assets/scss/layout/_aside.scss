@@ -6,7 +6,7 @@
     padding: 32px;
     flex-direction: column;
     background-color: #F8F9FA;
- 
+
 
     .logo-img {
         height: 40px;
@@ -16,9 +16,10 @@
         margin-top: 40px;
     }
 
-    .list-item a {
+    a {
         color: $gray-900;
         font-weight: bold;
+
         &:hover {
             color: green;
         }
@@ -29,9 +30,13 @@
         width: 40px;
         border-radius: 50%;
     }
+
     .user-email {
         font-size: 14px;
         color: $gray-600;
     }
 
+    .list-item .active {
+        color: $success;
+    }
 }
